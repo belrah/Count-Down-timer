@@ -11,7 +11,7 @@ body {
 
 .navbar-brand {
     color: rgb(105, 228, 234) !important;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -44,12 +44,19 @@ body {
 
 #button-start:hover {
     background-color: rgb(105, 228, 234);
+    border: 3px solid rgb(105, 228, 234);
 }
 
 #button-stop:hover {
     background-color: rgb(105, 228, 234);
+    border: 3px solid rgb(105, 228, 234);
 }
 
 #button-reset:hover {
     background-color: rgb(105, 228, 234);
+    border: 3px solid rgb(105, 228, 234);
+}
+
+#button-reset:active {
+    border: 3px solid rgb(105, 228, 234);
 }
